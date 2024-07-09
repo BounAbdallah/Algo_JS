@@ -1,7 +1,9 @@
 
 function compterOccurrences(phrase, element) {
     let count = 0;
-    let position = phrase.indexOf(element);
+
+    //La variable position utilise la méthode indexOf pour trouver la première occurrence de element dans phrase
+    let position = phrase.indexOf(element); 
 
     while (position !== -1) {
         count++;
